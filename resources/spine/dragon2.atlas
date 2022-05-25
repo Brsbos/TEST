@@ -1,0 +1,62 @@
+
+dragon2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 1142, 279
+  size: 465, 322
+  orig: 465, 329
+  offset: 0, 7
+  index: -1
+head
+  rotate: true
+  xy: 2, 37
+  size: 458, 529
+  orig: 458, 529
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 436, 497
+  size: 104, 181
+  orig: 104, 181
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 213, 502
+  size: 99, 221
+  orig: 99, 222
+  offset: 0, 1
+  index: -1
+leg3
+  rotate: true
+  xy: 619, 443
+  size: 158, 242
+  orig: 158, 242
+  offset: 0, 0
+  index: -1
+leg4
+  rotate: true
+  xy: 2, 506
+  size: 95, 209
+  orig: 95, 209
+  offset: 0, 0
+  index: -1
+shadow1
+  rotate: false
+  xy: 533, 2
+  size: 1268, 275
+  orig: 1334, 301
+  offset: 36, 14
+  index: -1
+tail
+  rotate: false
+  xy: 863, 351
+  size: 277, 250
+  orig: 277, 250
+  offset: 0, 0
+  index: -1

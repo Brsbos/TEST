@@ -1,0 +1,302 @@
+body{
+    overflow: hidden;
+    padding:0;
+    margin:0;
+}
+
+#app {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 100%;
+
+    z-index : -1;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* 开始界面 */
+#start {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: url("../images/main_bg.png") no-repeat;
+    background-size:100% 100%;
+    /* position: absolute; */
+    /* margin: auto;
+    left: 0px;
+    right:0px; */
+    visibility: hidden;
+    /* text-align:center */
+}
+
+#logo{
+    position:absolute;
+    left:50%;
+    margin-left: -150px;
+    top: 100px;
+    width: 300px;
+}
+
+#enter{
+    position:absolute;
+    left:50%;
+    margin-left: -100px;
+    top: 400px;
+    width: 200px;
+}
+
+#loading{
+    position:absolute;
+    left:50%;
+    margin-left: -50px;
+    top: 380px;
+    width: 100px;
+
+    animation:rotate 1s infinite linear;
+    -webkit-animation:rotate 1s infinite linear; /*Safari and Chrome*/
+}
+
+@keyframes rotate
+{
+    /* from {transform:rotate(0deg);} */
+    to {transform:rotate(360deg);}
+}
+
+@-webkit-keyframes rotate /*Safari and Chrome*/
+{
+    /* from {transform:rotate(0deg);} */
+    to {transform:rotate(360deg);}
+}
+
+/* 扫描界面 */
+#scan {
+    position:absolute;
+    width:100%;
+    height:100%;
+    visibility: hidden;
+}
+
+/* #scan_frame{
+    position:absolute;
+    left:50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -200px;
+    width: 300px;
+} */
+
+#scan_tip{
+    position:absolute;
+    left:50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: 0px;
+    width: 300px;
+}
+
+
+
+/* 游戏界面 */
+#info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+#back {
+    position:absolute;
+    width : 60px;
+    height: 60px;
+    right: 20px;
+    top: 20px
+}
+
+#dragon_menu{
+    position:absolute;
+    left:50%;
+    margin-left: -170px;
+    bottom: 40px; 
+    width: 100px; 
+    height: 100px
+}
+
+#dragon_list {
+    position : absolute;
+    width: 110px;
+    height: 240px;
+    left: 50%;
+    bottom: 140px;
+    margin-left: -175px;
+    visibility: hidden;
+}
+
+#dragon1{
+    position:absolute;
+    left:50%;
+    margin-left: -170px;
+    bottom: 290px;
+    height: 90px
+}
+
+#dragon2{
+    position:absolute;
+    left:50%;
+    margin-left: -170px;
+    bottom: 215px;
+    height: 90px
+}
+
+#dragon3{
+    position:absolute;
+    left:50%;
+    margin-left: -170px;
+    bottom: 140px;
+    height: 90px
+}
+
+#food{
+    position:absolute;
+    left:50%;
+    margin-left: -50px;
+    bottom: 40px;
+    width: 200px;
+    height: 100px
+}
+
+#fish_scene {
+    position: absolute;
+    width:100%;
+    height:100%;
+    visibility: hidden;
+}
+
+#fish_bg {
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: -10;
+}
+
+#fish_back {
+    position:absolute;
+    width : 60px;
+    height: 60px;
+    right: 20px;
+    top: 20px;
+    z-index: 10;
+}
+
+/* #fish_config{
+    position: absolute;
+    bottom:0px;
+    left: 20px;
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+} */
+
+#fish_tips {
+    position: absolute;
+    width:100%;
+    height:100%;
+    visibility: hidden;
+}
+
+#tap_to_marineland{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(100px);
+    z-index: 10;
+    color: blue;
+    font-size: 26px;
+    width:max-content;
+}
+
+#beauty_diaolog{
+    background: url("../images/dialog.png") no-repeat;
+    background-size:100% 100%;
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    touch-action: none;
+}
+
+#beauty_diaolog_text{
+    position:absolute;
+    top:50px;
+    left:45px;
+    width:70%
+}
+
+/* 鱼的描述界面 */
+#fish_info {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    visibility: hidden;
+}
+
+#fish_info_bg {
+    background: url("../images/fish_info/fish_info_bg.png") no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    width: 330px;
+    height: 460px;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+
+#fish_title{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top : 22px;
+    color: yellow;
+    font-size: 24px;
+    width:max-content;
+}
+
+#fish_icon{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:80px;
+    height:100px;
+}
+
+#fish_content{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:190px;
+    color: blue;
+    font-size: 19px;
+    width: 80%
+}
+
+#fish_sound{
+    position:absolute;
+    width: 70px;
+    right: 30px;
+    bottom:30px;
+}

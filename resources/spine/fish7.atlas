@@ -1,0 +1,20 @@
+
+fish7.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 472, 227
+  orig: 473, 227
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 476, 76
+  size: 77, 153
+  orig: 77, 153
+  offset: 0, 0
+  index: -1

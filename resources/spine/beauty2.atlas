@@ -1,0 +1,83 @@
+
+beauty2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag
+  rotate: false
+  xy: 1199, 73
+  size: 128, 157
+  orig: 132, 162
+  offset: 3, 2
+  index: -1
+body
+  rotate: true
+  xy: 655, 43
+  size: 177, 251
+  orig: 190, 251
+  offset: 2, 0
+  index: -1
+body2
+  rotate: false
+  xy: 2, 65
+  size: 296, 424
+  orig: 340, 428
+  offset: 2, 3
+  index: -1
+hair
+  rotate: true
+  xy: 2, 3
+  size: 60, 184
+  orig: 61, 184
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 188, 18
+  size: 45, 115
+  orig: 49, 115
+  offset: 4, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 305, 2
+  size: 153, 348
+  orig: 155, 349
+  offset: 0, 1
+  index: -1
+hand
+  rotate: true
+  xy: 942, 232
+  size: 257, 300
+  orig: 262, 303
+  offset: 0, 3
+  index: -1
+hand2
+  rotate: false
+  xy: 1049, 39
+  size: 148, 191
+  orig: 150, 193
+  offset: 2, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 908, 14
+  size: 139, 206
+  orig: 253, 289
+  offset: 114, 2
+  index: -1
+head
+  rotate: false
+  xy: 300, 157
+  size: 287, 332
+  orig: 289, 335
+  offset: 2, 1
+  index: -1
+tail
+  rotate: true
+  xy: 589, 222
+  size: 267, 351
+  orig: 269, 356
+  offset: 0, 2
+  index: -1

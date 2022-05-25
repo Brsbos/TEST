@@ -1,0 +1,55 @@
+
+beauty1.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 1176, 43
+  size: 172, 247
+  orig: 172, 247
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 596, 66
+  size: 274, 415
+  orig: 274, 417
+  offset: 0, 2
+  index: -1
+hand
+  rotate: true
+  xy: 596, 2
+  size: 62, 96
+  orig: 64, 99
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 872, 13
+  size: 215, 130
+  orig: 221, 130
+  offset: 6, 0
+  index: -1
+hand3
+  rotate: true
+  xy: 1176, 217
+  size: 264, 206
+  orig: 266, 213
+  offset: 0, 7
+  index: -1
+head
+  rotate: true
+  xy: 2, 34
+  size: 447, 592
+  orig: 525, 751
+  offset: 56, 157
+  index: -1
+tail
+  rotate: false
+  xy: 872, 145
+  size: 302, 336
+  orig: 304, 338
+  offset: 1, 0
+  index: -1

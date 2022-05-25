@@ -1,0 +1,7 @@
+stages:
+  - deploy
+
+deploy-dev:
+  stage: deploy
+  script:
+    - rsync -av -e 'ssh -i ~/keys/changhui.pem' ./* root@ch01.sysfun.cn:/docker/dreamglow

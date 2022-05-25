@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Dream Glow</title>
+    <!-- 控制台 -->
+    <!-- <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/eruda"></script> -->
+
+    <script src="https://dragonar.oss-cn-beijing.aliyuncs.com/switch.js"></script>
+
+    <!-- three110 -->
+    <script src="src/three_110/stats.min.js"></script>
+    <script src="src/three_110/three.js"></script>
+    <script src="src/three_110/OrbitControls.js"></script>
+    <script src="src/three_110/OBJLoader.js"></script>
+    <script src="src/three_110/MTLLoader.js"></script>
+    <script src="src/three_110/CSS2DRenderer.js"></script>
+    <script src="src/three_110/CSS3DRenderer.js"></script>
+
+    <!-- spine3.8.js -->
+    <script src="src/spine/spine-threejs_3.8.js"></script>
+    <!-- tween.js -->
+    <script src="src/tween/tweenjs.js"></script>
+    <!-- AR -->
+    <script src="src/index.js"></script>
+    <script src="src/artoolkit/threejs_multi_worker_ES6.js"></script>
+
+
+    <!-- main -->
+    <script src="src/utils.min.js"></script>
+    <script src="src/main.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+</head>
+
+<body>
+    <!-- <p id = "load_nft" style="position:absolute;left:50%;transform: translateX(-50%);z-index: 10;color: red;">加载识别图中..</p> -->
+
+    <div id="app">
+        <video
+          loop
+          autoplay
+          muted
+          playsinline
+          id="video">
+        </video>
+        <canvas id="canvas"></canvas>
+      </div>
+
+    <div id="start">
+        <img id="logo" src="resources/images/LOGO.png">
+        <img id="enter" src="resources/images/start.png" onclick="onClickEnter()">
+        <img id="loading" src="resources/images/loading.png">
+
+        <!-- <img id="enter_no_scan" src="resources/images/start.png" onclick="onClickEnter2()"
+            style="position:absolute; left:50%; margin-left: -100px;top: 500px;width: 200px;"> -->
+    </div>
+
+    <div id="scan">
+        <!-- <img id="scan_frame" src="resources/images/sbk.png"> -->
+        <img id="scan_tip" src="resources/images/sbwz.png">
+    </div>
+
+    <div id="info">
+        <img id="back" src="resources/images/btn_back.png" onclick="onClickBack()">
+
+        <img id="dragon_list" src="resources/images/dragon_menu.png">
+        <img id="dragon1" src="resources/images/dragon1.png" onclick="onClickMenuDragon(1)">
+        <img id="dragon2" src="resources/images/dragon2.png" onclick="onClickMenuDragon(2)">
+        <img id="dragon3" src="resources/images/dragon3.png" onclick="onClickMenuDragon(3)">
+
+        <img id="dragon_menu" src="resources/images/btn_menu.png" onclick="onClickMenu()">
+        <img id="food" src="resources/images/btn_food.png" onclick="onClickFood()">
+    </div>
+
+    <div id="fish_scene">
+        <img id="fish_back" src="resources/images/btn_back.png" onclick="onClickFishBack()">
+
+        <!-- <div id="fish_config">
+            鱼的缩放尺寸<input type="text" id="fish_scale">
+            鱼的移动速度(设置之后下次移动生效) <input type="text" id="fish_move_speed">
+        </div> -->
+
+        <img id="fish_bg" src="resources/images/fish_info/fish_bg.png">
+        <div id="fish_tips">
+            <p id="tap_to_marineland">TAP TO MARILAND</p>
+            <div id="beauty_diaolog">
+                <p id="beauty_diaolog_text"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="fish_info">
+        <!-- 输入鱼的坐标<input type="text" id="fish_pos">
+        <img id="fish" src="resources/images/btn_food.png" onclick="onClickFish()"> -->
+        <div id = "fish_info_bg">
+            <div id="fish_title"></div>
+            <img id="fish_icon" src=""></img>
+            <div id="fish_content"></div>
+            <img id="fish_sound" src="resources/images/fish_info/btn_sound.png" onclick="onClickFishSound()">
+        </div>
+    </div>
+
+    <div id="scene"> </div>
+</body>
+
+</html>

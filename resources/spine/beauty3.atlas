@@ -1,0 +1,55 @@
+
+beauty3.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 811, 2
+  size: 181, 277
+  orig: 181, 277
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 466, 76
+  size: 343, 422
+  orig: 350, 422
+  offset: 2, 0
+  index: -1
+hand
+  rotate: false
+  xy: 1188, 22
+  size: 85, 210
+  orig: 85, 210
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 1090, 17
+  size: 96, 166
+  orig: 97, 166
+  offset: 1, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 1118, 234
+  size: 257, 264
+  orig: 259, 268
+  offset: 2, 2
+  index: -1
+head
+  rotate: true
+  xy: 2, 33
+  size: 465, 462
+  orig: 474, 482
+  offset: 6, 18
+  index: -1
+tail
+  rotate: true
+  xy: 811, 185
+  size: 313, 305
+  orig: 313, 309
+  offset: 0, 2
+  index: -1
