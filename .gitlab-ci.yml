@@ -4,4 +4,4 @@ stages:
 deploy-dev:
   stage: deploy
   script:
-    - rsync -e 'ssh -i ~/keys/changhui.pem' -avpz --delete ./ root@ch01.sysfun.cn:/docker/dreamglow
+    - rsync -e 'ssh -i /devops/keys/changhui.pem' -avpz --delete ./ root@ch01.sysfun.cn:/docker/dreamglow
