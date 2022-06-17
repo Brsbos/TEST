@@ -57,6 +57,28 @@ body{
     width: 200px;
 }
 
+#enter_left{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 50%;
+    height: 80px;
+    background:transparent;
+    color: transparent;
+    border: 0;
+}
+
+#enter_right{
+    position:absolute;
+    right:0;
+    bottom: 0;
+    width: 50%;
+    height: 80px;
+    background:transparent;
+    color: transparent;
+    border: 0;
+}
+
 #loading{
     position:absolute;
     left:50%;
